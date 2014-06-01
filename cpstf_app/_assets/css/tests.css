@@ -1,0 +1,155 @@
+﻿.tip-col
+{
+	float: left;
+	width: 220px; /*border-right: 1px solid #bababa;*/
+}
+#tips-box
+{
+}
+.tip
+{
+	margin: 5px 10px 10px 0;
+	border: 1px solid #bababa;
+	background: #feedb3;
+	padding: 10px;
+		-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+}
+.tip-body
+{
+	padding: 10px 0 15px 0;
+	cursor:pointer;
+}
+.tiptitle
+{
+	font-size: 20px;
+	color: #515150;
+	font-family: Georgia;
+	text-decoration: none;
+}
+.sm
+{
+	height: 50px;
+}
+.smme
+{
+	height: 75px;
+}
+.me
+{
+	height: 100px;
+}
+.mela
+{
+	height: 125px;
+}
+.la
+{
+	height: 150px;
+}
+.el
+{
+	height: 350px;
+}
+a.current, a.current:hover
+{
+	border: none;
+	color: #bababa;
+	cursor: default;
+}
+a.vote_yes
+{
+	padding: 2px;
+	background-color: #eaeaea;
+	color: #4749ab;
+	text-decoration: none;
+}
+a.vote_yes:hover
+{
+	padding: 2px;
+	background-color: #4749ab;
+	color: #fff;
+	text-decoration: none;
+}
+a.vote_no
+{
+	padding: 2px;
+	background-color: #eaeaea;
+	color: #9e4b35;
+	text-decoration: none;
+}
+a.vote_no:hover
+{
+	padding: 2px;
+	background-color: #9e4b35;
+	color: #fff;
+	text-decoration: none;
+}
+div.vote-bar
+{
+	text-align: left;
+	margin-top: 2px;
+}
+div.vote-details
+{
+	margin-top: 3px;
+	text-align: left;
+}
+.votesbox
+{
+	padding-top: 10px;
+	border-top: 1px dotted #eaeaea;
+	text-align: center;
+}
+.notifybox
+{
+	display: none;
+	margin-top: 5px;
+	padding: 2px;
+	background: #f5d19f;
+	font-size: 10px;
+	font-weight: bold;
+	color: #476e7b;
+	text-align: center;
+}
+.resultsbox
+{
+	padding-top: 10px;
+	border-top: 1px dotted #eaeaea;
+	text-align: right;
+	display: none;
+}
+a.advice-title
+{
+	margin-bottom: 5px;
+	font-size: 20px;
+	color: #515150;
+	font-family: Georgia;
+	text-decoration: none;
+}
+a.advice-title:hover
+{
+	color: #4749ab;
+}
+span.agree
+{
+	margin-bottom: 3px;
+	display: block;
+	text-align: right;
+}
+div.yesbar
+{
+	width: 0px;
+	height: 5px;
+	background: #4749ab url(../../_assets/images/s-blue.jpg) repeat-x;
+	margin-top: 2px;
+	text-align:left;
+}
+div.nobar
+{
+	width: 0px;
+	height: 5px;
+	background: #9e4b35;
+	margin-top: 2px;
+	text-align:left;
+}

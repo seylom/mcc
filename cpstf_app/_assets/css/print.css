@@ -1,0 +1,55 @@
+﻿body
+{
+	background: #ffffff;
+	font-size: 12pt;
+}
+a:link, a:visited
+{
+	color: #520;
+	background: transparent;
+	font-weight: bold;
+	text-decoration: underline;
+}
+#doc
+{
+	width: 950px;
+	margin: 20px auto;
+}
+#hd
+{
+	font-size: 12px;
+	background:url(../images/logo_crunch2.png) no-repeat top left;
+	height:70px;
+	border-bottom:1px solid #bababa
+}
+#fu
+{
+	margin: 10px 0 20px 0;
+	text-align: right;
+	font-size: 10pt;
+	color:darkred;
+}
+.artBody, .byLine, div.filed-under
+{
+	font-size: 12pt;
+}
+.filed-under
+{
+	font-size: 12pt;
+}
+#footer div.fu
+{
+	text-align: right;
+	width: auto;
+	float: none;
+	font-size: 12pt;
+}
+h1.artTitle, h1.artTitle a
+{
+	text-transform: none;
+	text-align: left;
+	height: auto;
+	font-weight: normal;
+	line-height: normal;
+	font-size: 30px;
+}

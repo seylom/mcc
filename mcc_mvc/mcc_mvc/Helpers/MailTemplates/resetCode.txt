@@ -1,0 +1,16 @@
+Hey {0},</br>
+</br>
+You recently requested a new password.</br>
+</br>
+Here is your reset code, which you can enter on the password reset page:</br>
+{1}</br>
+</br>
+You can also reset your password by following the link below:</br>
+{2}</br>
+</br>
+Please note that this email has been sent to all contact emails associated with your account.</br>
+If you did not reset your password, please disregard this message.</br>
+</br>
+See you online,</br>
+- The MiddleClassCrunch Team</br>
+</br>

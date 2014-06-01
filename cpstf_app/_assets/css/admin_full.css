@@ -1,0 +1,134 @@
+﻿.mcc_articleTable,.mcc_VideoTable
+{
+	padding-top: 20px;
+}
+.mcc_articleTable tr td.right,.mcc_VideoTable tr td.right
+{
+	padding: 3px 10px;
+	text-align: right;
+	width:auto;
+}
+.mcc_articleTable tr td.left,.mcc_VideoTable tr td.left
+{
+	padding: 3px 10px;
+	text-align: left;
+	background-color:#eaeaea;
+}
+.mcc_articleTable tr td.left,.mcc_VideoTable tr td.left
+{
+	padding: 3px;
+	text-align: left;
+}
+table.admin-category
+{
+	width:100%;
+	border:1px solid #bababa;
+	background:#fff;
+}
+table.admin-category th
+{
+	background:#bababa;
+	padding:10px;
+	text-align:center;
+}
+table.admin-category tr.edition td
+{
+	background:#f1f1f1;
+}
+table.admin-category tr td
+{
+	padding: 5px;
+	margin:3px;
+	background:#fbfbfb;
+	text-align:left;
+	border-top:1px solid #bababa;
+}
+table.admin-category tr td.id
+{
+	font-size:11px;
+	text-align:center;
+}
+table.admin-category tr td.title
+{
+	font-weight:bold;
+	text-align:left;
+	color:#722e29;
+}
+table.admin-category tr td.importance
+{
+	text-align:center;
+	color:#364b8d;
+	font-weight:bold;
+	font-size:10px;
+}
+table.admin-category tr td.command
+{
+	text-align:center;
+}
+table.edition
+{
+	background:#fff;
+	border:1px solid #bababa;
+}
+table.edition tr td
+{
+	border:none;
+	background:#f3f2f2;
+}
+table.insertion 
+{	
+	background:#efc9c4;
+	border:1px solid red;
+}
+table.insertion tr td
+{
+	border:none;
+	background:#efc9c4;
+}
+table.admin-tbl
+{
+	margin-top:20px;
+}
+table.admin-tbl tr td
+{
+	height: 100%;
+	padding:10px;
+	background:#f5f5f5;
+	vertical-align:top;
+}
+table.admin-tbl tr td h4
+{
+	margin:5px 0;
+	font-size:12px;
+	color:#2b3e90;
+	padding-left:20px;
+	line-height:16px;
+}
+table.admin-tbl tr td h4.quote
+{
+	background:url(../images/microicons/Talk.png) no-repeat;
+}
+table.admin-tbl tr td h4.user
+{
+	background:url(../images/microicons/User-Info.png) no-repeat;
+}
+table.admin-tbl tr td h4.homepage
+{
+	background:url(../images/microicons/News.png) no-repeat;
+}
+table.admin-tbl tr td h4.video
+{
+	background:url(../images/microicons/ivideo.gif) no-repeat;
+}
+table.admin-tbl tr td h4.article
+{
+	background:url(../images/microicons/listing.png) no-repeat;
+}
+table.admin-tbl tr td h4.forum
+{
+	background:url(../images/thread.png) no-repeat;	
+}
+table.admin-tbl tr td h4.mess
+{
+	background:url(../images/Doc-Info.png) no-repeat;
+}

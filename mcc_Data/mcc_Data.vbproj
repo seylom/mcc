@@ -1,0 +1,397 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{227A28AA-CA7F-456A-86AA-51702D29982A}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <RootNamespace>MCC.Data</RootNamespace>
+    <AssemblyName>mcc_Data</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>Windows</MyType>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <OptionExplicit>On</OptionExplicit>
+    <OptionCompare>Binary</OptionCompare>
+    <OptionStrict>On</OptionStrict>
+    <OptionInfer>On</OptionInfer>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>mcc_Data.xml</DocumentationFile>
+    <NoWarn>42353,42354,42355</NoWarn>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+    <WarningsAsErrors>41999,42016,42017,42018,42019,42020,42021,42022,42032,42036</WarningsAsErrors>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>mcc_Data.xml</DocumentationFile>
+    <NoWarn>42353,42354,42355</NoWarn>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+    <WarningsAsErrors>41999,42016,42017,42018,42019,42020,42021,42022,42032,42036</WarningsAsErrors>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\x86\Debug\</OutputPath>
+    <DocumentationFile>mcc_Data.xml</DocumentationFile>
+    <NoWarn>42353,42354,42355</NoWarn>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+    <WarningsAsErrors>41999,42016,42017,42018,42019,42020,42021,42022,42032,42036</WarningsAsErrors>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\x86\Release\</OutputPath>
+    <DocumentationFile>mcc_Data.xml</DocumentationFile>
+    <Optimize>true</Optimize>
+    <NoWarn>42353,42354,42355</NoWarn>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+    <WarningsAsErrors>41999,42016,42017,42018,42019,42020,42021,42022,42032,42036</WarningsAsErrors>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Stagging|AnyCPU'">
+    <DebugSymbols>true</DebugSymbols>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Stagging\</OutputPath>
+    <DocumentationFile>mcc_Data.xml</DocumentationFile>
+    <NoWarn>42353,42354,42355</NoWarn>
+    <DebugType>full</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <WarningsAsErrors>41999,42016,42017,42018,42019,42020,42021,42022,42032,42036</WarningsAsErrors>
+    <CodeAnalysisLogFile>bin\Debug\mcc_Data.dll.CodeAnalysisLog.xml</CodeAnalysisLogFile>
+    <CodeAnalysisUseTypeNameInSuppression>true</CodeAnalysisUseTypeNameInSuppression>
+    <CodeAnalysisModuleSuppressionsFile>GlobalSuppressions.vb</CodeAnalysisModuleSuppressionsFile>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRuleSetDirectories>;C:\Program Files (x86)\Microsoft Visual Studio 10.0\Team Tools\Static Analysis Tools\\Rule Sets</CodeAnalysisRuleSetDirectories>
+    <CodeAnalysisRuleDirectories>;C:\Program Files (x86)\Microsoft Visual Studio 10.0\Team Tools\Static Analysis Tools\FxCop\\Rules</CodeAnalysisRuleDirectories>
+    <CodeAnalysisIgnoreBuiltInRules>false</CodeAnalysisIgnoreBuiltInRules>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Stagging|x86'">
+    <DebugSymbols>true</DebugSymbols>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\x86\Stagging\</OutputPath>
+    <DocumentationFile>mcc_Data.xml</DocumentationFile>
+    <NoWarn>42353,42354,42355</NoWarn>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <WarningsAsErrors>41999,42016,42017,42018,42019,42020,42021,42022,42032,42036</WarningsAsErrors>
+    <CodeAnalysisLogFile>bin\x86\Debug\mcc_Data.dll.CodeAnalysisLog.xml</CodeAnalysisLogFile>
+    <CodeAnalysisUseTypeNameInSuppression>true</CodeAnalysisUseTypeNameInSuppression>
+    <CodeAnalysisModuleSuppressionsFile>GlobalSuppressions.vb</CodeAnalysisModuleSuppressionsFile>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRuleSetDirectories>;C:\Program Files (x86)\Microsoft Visual Studio 10.0\Team Tools\Static Analysis Tools\\Rule Sets</CodeAnalysisRuleSetDirectories>
+    <CodeAnalysisIgnoreBuiltInRuleSets>false</CodeAnalysisIgnoreBuiltInRuleSets>
+    <CodeAnalysisRuleDirectories>;C:\Program Files (x86)\Microsoft Visual Studio 10.0\Team Tools\Static Analysis Tools\FxCop\\Rules</CodeAnalysisRuleDirectories>
+    <CodeAnalysisIgnoreBuiltInRules>false</CodeAnalysisIgnoreBuiltInRules>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Staging|AnyCPU'">
+    <DebugSymbols>true</DebugSymbols>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Staging\</OutputPath>
+    <DocumentationFile>mcc_Data.xml</DocumentationFile>
+    <NoWarn>42353,42354,42355</NoWarn>
+    <DebugType>full</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <WarningsAsErrors>41999,42016,42017,42018,42019,42020,42021,42022,42032,42036</WarningsAsErrors>
+    <CodeAnalysisLogFile>bin\Debug\mcc_Data.dll.CodeAnalysisLog.xml</CodeAnalysisLogFile>
+    <CodeAnalysisUseTypeNameInSuppression>true</CodeAnalysisUseTypeNameInSuppression>
+    <CodeAnalysisModuleSuppressionsFile>GlobalSuppressions.vb</CodeAnalysisModuleSuppressionsFile>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRuleSetDirectories>;C:\Program Files (x86)\Microsoft Visual Studio 10.0\Team Tools\Static Analysis Tools\\Rule Sets</CodeAnalysisRuleSetDirectories>
+    <CodeAnalysisIgnoreBuiltInRuleSets>false</CodeAnalysisIgnoreBuiltInRuleSets>
+    <CodeAnalysisRuleDirectories>;C:\Program Files (x86)\Microsoft Visual Studio 10.0\Team Tools\Static Analysis Tools\FxCop\\Rules</CodeAnalysisRuleDirectories>
+    <CodeAnalysisIgnoreBuiltInRules>false</CodeAnalysisIgnoreBuiltInRules>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Staging|x86'">
+    <DebugSymbols>true</DebugSymbols>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\x86\Staging\</OutputPath>
+    <DocumentationFile>mcc_Data.xml</DocumentationFile>
+    <NoWarn>42353,42354,42355</NoWarn>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <WarningsAsErrors>41999,42016,42017,42018,42019,42020,42021,42022,42032,42036</WarningsAsErrors>
+    <CodeAnalysisLogFile>bin\x86\Debug\mcc_Data.dll.CodeAnalysisLog.xml</CodeAnalysisLogFile>
+    <CodeAnalysisUseTypeNameInSuppression>true</CodeAnalysisUseTypeNameInSuppression>
+    <CodeAnalysisModuleSuppressionsFile>GlobalSuppressions.vb</CodeAnalysisModuleSuppressionsFile>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRuleSetDirectories>;C:\Program Files (x86)\Microsoft Visual Studio 10.0\Team Tools\Static Analysis Tools\\Rule Sets</CodeAnalysisRuleSetDirectories>
+    <CodeAnalysisRuleDirectories>;C:\Program Files (x86)\Microsoft Visual Studio 10.0\Team Tools\Static Analysis Tools\FxCop\\Rules</CodeAnalysisRuleDirectories>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="EeekSoft.Linq, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\shared\EeekSoft.Linq.dll</HintPath>
+    </Reference>
+    <Reference Include="MvcPager, Version=1.2.0.0, Culture=neutral, PublicKeyToken=f6872c5a09aed72c, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\shared\MvcPager.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Core\Utils.vb" />
+    <Compile Include="DataAccess\DataContext.vb" />
+    <Compile Include="DataAccess\Interfaces\Advices\IAdviceCategoryRepository.vb" />
+    <Compile Include="DataAccess\Interfaces\Ask\IUserAnswerCommentRepository.vb" />
+    <Compile Include="DataAccess\Interfaces\Ask\IUserAnswerRepository.vb" />
+    <Compile Include="DataAccess\Interfaces\Ask\IUserQuestionCommentRepository.vb" />
+    <Compile Include="DataAccess\Interfaces\Ask\IUserQuestionRepository.vb" />
+    <Compile Include="DataAccess\Interfaces\Others\IQuoteRepository.vb" />
+    <Compile Include="DataAccess\Interfaces\Others\IResetQuoteRepository.vb" />
+    <Compile Include="DataAccess\Interfaces\Others\ISearchRepository.vb" />
+    <Compile Include="DataAccess\LinqToSql\mDc.vb" />
+    <Compile Include="DataAccess\LinqToSql\SearchRepository.vb" />
+    <Compile Include="DataAccess\LinqToSql\ask\UserAnswerCommentRepository.vb" />
+    <Compile Include="DataAccess\LinqToSql\ask\UserAnswerRepository.vb" />
+    <Compile Include="DataAccess\LinqToSql\ask\UserQuestionCommentRepository.vb" />
+    <Compile Include="DataAccess\LinqToSql\ask\UserQuestionRepository.vb" />
+    <Compile Include="DataAccess\Interfaces\Others\IUserRepository.vb" />
+    <Compile Include="DataAccess\LinqToSql\ImageTagRepository.vb" />
+    <Compile Include="DataAccess\Interfaces\Others\IFeedbackRepository.vb" />
+    <Compile Include="DataAccess\Interfaces\Images\IImageTagRepository.vb" />
+    <Compile Include="DataAccess\Interfaces\Others\IPollOptionRepository.vb" />
+    <Compile Include="DataAccess\Interfaces\Others\IPollRepository.vb" />
+    <Compile Include="DataAccess\Interfaces\Others\ITicketChangeRepository.vb" />
+    <Compile Include="DataAccess\Interfaces\Others\ITicketRepository.vb" />
+    <Compile Include="DataAccess\LinqToSql\PollOptionRepository.vb" />
+    <Compile Include="DataAccess\LinqToSql\PollRepository.vb" />
+    <Compile Include="DataAccess\LinqToSql\QuoteRepository.vb" />
+    <Compile Include="DataAccess\LinqToSql\ResetCodeRepository.vb" />
+    <Compile Include="DataAccess\LinqToSql\TicketChangeRepository.vb" />
+    <Compile Include="DataAccess\LinqToSql\TicketRepository.vb" />
+    <Compile Include="DataAccess\Interfaces\Videos\IVideoCategoryRepository.vb" />
+    <Compile Include="DataAccess\Interfaces\Videos\IVideoCommentRepository.vb" />
+    <Compile Include="DataAccess\Interfaces\Videos\IVideoRepository.vb" />
+    <Compile Include="DataAccess\Interfaces\Videos\IVideoTagRepository.vb" />
+    <Compile Include="DataAccess\LinqToSql\umc.designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>umc.dbml</DependentUpon>
+    </Compile>
+    <Compile Include="DataAccess\LinqToSql\umc.vb">
+      <DependentUpon>umc.dbml</DependentUpon>
+    </Compile>
+    <Compile Include="DataAccess\LinqToSql\UmcDC.vb" />
+    <Compile Include="DataAccess\LinqToSql\UserRepository.vb" />
+    <Compile Include="DataAccess\LinqToSql\Video\VideoCategoryRepository.vb" />
+    <Compile Include="DataAccess\LinqToSql\Video\VideoCommentRepository.vb" />
+    <Compile Include="DataAccess\LinqToSql\Video\VideoRepository.vb" />
+    <Compile Include="DataAccess\LinqToSql\advices\AdviceCategoryRepository.vb" />
+    <Compile Include="DataAccess\LinqToSql\advices\AdviceCommentRepository.vb" />
+    <Compile Include="DataAccess\LinqToSql\advices\AdviceRepository.vb" />
+    <Compile Include="DataAccess\Interfaces\Advices\IAdviceCommentRepository.vb" />
+    <Compile Include="DataAccess\Interfaces\Advices\IAdviceRepository.vb" />
+    <Compile Include="DataAccess\Interfaces\Articles\IArticleCategoryRepository.vb" />
+    <Compile Include="DataAccess\Interfaces\Articles\IArticleCommentRepository.vb" />
+    <Compile Include="DataAccess\Interfaces\Articles\IArticleRepository.vb" />
+    <Compile Include="DataAccess\Interfaces\Articles\IArticleTagRepository.vb" />
+    <Compile Include="DataAccess\Interfaces\Images\IImageRepository.vb" />
+    <Compile Include="DataAccess\LinqToSql\AdRepository.vb" />
+    <Compile Include="DataAccess\LinqToSql\BadWordRepository.vb" />
+    <Compile Include="DataAccess\Interfaces\Others\IAdRepository.vb" />
+    <Compile Include="DataAccess\Interfaces\Others\IBadWordRepository.vb" />
+    <Compile Include="DataAccess\Interfaces\Others\IWikiRepository.vb" />
+    <Compile Include="DataAccess\LinqToSql\WikiRepository.vb" />
+    <Compile Include="DataAccess\LinqToSql\articles\ArticleCategoryRepository.vb" />
+    <Compile Include="DataAccess\LinqToSql\articles\ArticleCommentRepository.vb" />
+    <Compile Include="DataAccess\LinqToSql\articles\ArticleRepository.vb" />
+    <Compile Include="DataAccess\LinqToSql\articles\ArticleTagRepository.vb" />
+    <Compile Include="DataAccess\LinqToSql\Video\VideoTagRepository.vb" />
+    <Compile Include="Filters\AdviceFilters.vb" />
+    <Compile Include="Filters\GlobalFilters.vb" />
+    <Compile Include="Filters\VideoFilters.vb" />
+    <Compile Include="MCCServiceRegistry.vb" />
+    <Compile Include="Model\Advice\Advice.vb" />
+    <Compile Include="Model\Advice\AdviceComment.vb" />
+    <Compile Include="Model\Advice\ArticleCategory.vb" />
+    <Compile Include="Model\Articles\ArticleAdv.vb" />
+    <Compile Include="Model\Articles\ArticleTag.vb" />
+    <Compile Include="DataAccess\LinqToSql\ImageRepository.vb" />
+    <Compile Include="DataAccess\LinqToSql\MCC.designer.vb">
+      <DependentUpon>MCC.dbml</DependentUpon>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Include="DataAccess\LinqToSql\MCC.vb">
+      <DependentUpon>MCC.dbml</DependentUpon>
+    </Compile>
+    <Compile Include="Model\Articles\PopularArticle.vb" />
+    <Compile Include="Model\Ask\UserAnswer.vb" />
+    <Compile Include="Model\Ask\UserAnswerComment.vb" />
+    <Compile Include="Model\Ask\UserQuestion.vb" />
+    <Compile Include="Model\Ask\UserQuestionComment.vb" />
+    <Compile Include="Model\DataEntity.vb" />
+    <Compile Include="Model\Images\ImageTag.vb" />
+    <Compile Include="Model\Images\SimpleImage.vb" />
+    <Compile Include="Model\Others\Ad.vb" />
+    <Compile Include="Model\Others\BadWord.vb" />
+    <Compile Include="Model\Others\BannedIP.vb" />
+    <Compile Include="Model\Others\Feedback.vb" />
+    <Compile Include="Model\Others\Notification.vb" />
+    <Compile Include="Model\Others\Poll.vb" />
+    <Compile Include="Model\Others\PollOption.vb" />
+    <Compile Include="Model\Others\Quote.vb" />
+    <Compile Include="Model\Others\SearchResult.vb" />
+    <Compile Include="Model\Others\TicketChange.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Model\Others\UserResetCode.vb" />
+    <Compile Include="Model\Others\SiteUser.vb" />
+    <Compile Include="Model\Others\Ticket.vb" />
+    <Compile Include="Model\Others\WikiPage.vb" />
+    <Compile Include="Model\Videos\Video.vb" />
+    <Compile Include="Model\Videos\VideoCategory.vb" />
+    <Compile Include="Model\Videos\VideoComment.vb" />
+    <Compile Include="Model\Videos\VideoTag.vb" />
+    <Compile Include="Utility\Dynamic.vb" />
+    <Compile Include="Filters\ArticleFilters.vb" />
+    <Compile Include="Model\Articles\Article.vb" />
+    <Compile Include="Model\Articles\ArticleCategory.vb" />
+    <Compile Include="Model\Articles\ArticleComment.vb" />
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Utility\Pagination.vb" />
+    <Compile Include="Utility\QueryableSearch.vb" />
+    <Compile Include="Utility\StatusItem.vb" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="DataAccess\LinqToSql\MCC.dbml.layout">
+      <DependentUpon>MCC.dbml</DependentUpon>
+    </None>
+    <None Include="DataAccess\LinqToSql\umc.dbml.layout">
+      <DependentUpon>umc.dbml</DependentUpon>
+    </None>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="DataAccess\LinqToSql\MCC.dbml">
+      <Generator>MSLinqToSQLGenerator</Generator>
+      <LastGenOutput>MCC.designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="DataAccess\LinqToSql\umc.dbml">
+      <Generator>MSLinqToSQLGenerator</Generator>
+      <LastGenOutput>umc.designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{3259AA49-8AA1-44D3-9025-A0B520596A8C}" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="DataAccess\EntityFramework\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

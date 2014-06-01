@@ -1,0 +1,349 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 18.625, 20.5" name="MCC">
+  <DataContextMoniker Name="/MCCDataContext" />
+  <nestedChildShapes>
+    <classShape Id="749fb539-81b9-4ad2-9d58-6c26cdcf52f8" absoluteBounds="10.25, 2.375, 2.5, 1.1939925130208331">
+      <DataClassMoniker Name="/MCCDataContext/mcc_CategoriesAdvice" />
+      <nestedChildShapes>
+        <elementListCompartment Id="c7a0980c-a9f5-41da-ba67-96dac9b35700" absoluteBounds="10.265, 2.835, 2.4699999999999998, 0.63399251302083326" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="d4a5f774-f368-4849-baa7-b914fd2c0f84" absoluteBounds="3, 0.5, 2, 1.1939925130208333">
+      <DataClassMoniker Name="/MCCDataContext/mcc_BadWord" />
+      <nestedChildShapes>
+        <elementListCompartment Id="9a24e0f4-8c6b-49a2-91f0-15395a3fd1d4" absoluteBounds="3.015, 0.96, 1.9700000000000002, 0.63399251302083326" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="a3967dc8-4a24-4077-be06-5f1c733fcc92" absoluteBounds="10.75, 0.5, 2, 1.3862939453125">
+      <DataClassMoniker Name="/MCCDataContext/mcc_Word_Replace" />
+      <nestedChildShapes>
+        <elementListCompartment Id="c7c5f2cd-3576-47b6-93a5-af40f2e8c11c" absoluteBounds="10.765, 0.96, 1.9700000000000002, 0.8262939453125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="e13ee9dc-0b72-44ee-8b1b-9cba7badfdf0" absoluteBounds="2.875, 6.75, 2.375, 1.3862939453125005">
+      <DataClassMoniker Name="/MCCDataContext/mcc_BannedIP" />
+      <nestedChildShapes>
+        <elementListCompartment Id="8e53569f-be14-41de-85e1-04ca1bf53f1a" absoluteBounds="2.89, 7.21, 2.3449999999999998, 0.8262939453125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="03a1e1c1-4254-4786-bf26-c9c674ceb357" absoluteBounds="8.375, 0.5, 2, 1.7708968098958331">
+      <DataClassMoniker Name="/MCCDataContext/mcc_Registry" />
+      <nestedChildShapes>
+        <elementListCompartment Id="fd825995-e9cf-40d4-a0c1-d04e2f5cc1d7" absoluteBounds="8.39, 0.96, 1.9700000000000002, 1.2108968098958333" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="a4a3491e-f7a6-497e-b2bf-539552a85941" absoluteBounds="13.25, 2.75, 2, 2.9247054036458326">
+      <DataClassMoniker Name="/MCCDataContext/mcc_HomePage" />
+      <nestedChildShapes>
+        <elementListCompartment Id="f1e55ba0-2e51-43ca-8de0-144dfa9f9b3d" absoluteBounds="13.265, 3.21, 1.9700000000000002, 2.364705403645833" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="aefb378f-13b1-4b60-bee0-75796512d122" absoluteBounds="8, 3.375, 2, 1.1939925130208327">
+      <DataClassMoniker Name="/MCCDataContext/mcc_ArticleCategory" />
+      <nestedChildShapes>
+        <elementListCompartment Id="834eac73-4ece-439a-a465-ea2d3c9d7a60" absoluteBounds="8.015, 3.835, 1.9700000000000002, 0.63399251302083326" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="4f42e1f8-4695-46a6-aaa8-7cd279a9935c" absoluteBounds="3.125, 8.5, 2, 1.5785953776041666">
+      <DataClassMoniker Name="/MCCDataContext/mcc_Status" />
+      <nestedChildShapes>
+        <elementListCompartment Id="9be53dd8-6925-46dd-9e65-d56b8611acdc" absoluteBounds="3.14, 8.96, 1.9700000000000002, 1.0185953776041665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="8616f4b2-9231-44e0-914f-12268938b2c8" absoluteBounds="10.5, 3.875, 2, 2.5401025390624996">
+      <DataClassMoniker Name="/MCCDataContext/mcc_Feedback" />
+      <nestedChildShapes>
+        <elementListCompartment Id="a4e197da-48b8-4ae7-af87-56f60e1d0601" absoluteBounds="10.515, 4.335, 1.9700000000000002, 1.9801025390625" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="4c5241ee-4223-4881-9f72-29d8457d201f" absoluteBounds="5.5, 12.5, 2, 4.2708154296875023">
+      <DataClassMoniker Name="/MCCDataContext/mcc_Advice" />
+      <nestedChildShapes>
+        <elementListCompartment Id="eeb29b56-f966-47a3-b834-072a1285946c" absoluteBounds="5.5150000000000006, 12.96, 1.9700000000000002, 3.7108154296875" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="ccbdd5d4-7f3d-478a-a63b-4223a914e0e7" absoluteBounds="13.125, 0.5, 2, 2.1554996744791666">
+      <DataClassMoniker Name="/MCCDataContext/mcc_quote" />
+      <nestedChildShapes>
+        <elementListCompartment Id="fb1f24bc-7534-408c-b068-e371c81b5618" absoluteBounds="13.14, 0.96, 1.9700000000000002, 1.5954996744791665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="3f17d7ed-d998-47c8-89f5-ec3d6e708953" absoluteBounds="7.75, 9.375, 2, 2.3478011067708344">
+      <DataClassMoniker Name="/MCCDataContext/mcc_Comment" />
+      <nestedChildShapes>
+        <elementListCompartment Id="2def1d56-47b6-49b6-894e-b0b7e2969014" absoluteBounds="7.7650000000000006, 9.835, 1.9700000000000002, 1.7878011067708333" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="a9aafbfd-5994-41eb-ab68-016d9ac91b08" absoluteBounds="4.5, 6.5, 2, 2.1554996744791666">
+      <DataClassMoniker Name="/MCCDataContext/mcc_question" />
+      <nestedChildShapes>
+        <elementListCompartment Id="1d667304-1daa-4966-aa6d-866415d1a5b4" absoluteBounds="4.5150000000000006, 6.96, 1.9700000000000002, 1.5954996744791665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="35363a54-4ed8-449c-831d-3593351b7b80" absoluteBounds="5.375, 9.5, 2, 2.5401025390625005">
+      <DataClassMoniker Name="/MCCDataContext/mcc_Contribution" />
+      <nestedChildShapes>
+        <elementListCompartment Id="06000309-451a-4c95-ae9b-6a526ff71300" absoluteBounds="5.39, 9.96, 1.9700000000000002, 1.9801025390625" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="e28e3e0d-b80c-4121-b854-5f3cc7e755ed" absoluteBounds="10.375, 6.375, 2, 2.5401025390625005">
+      <DataClassMoniker Name="/MCCDataContext/mcc_Category" />
+      <nestedChildShapes>
+        <elementListCompartment Id="321351a3-d74b-42c2-afe3-5b161bf7dfb6" absoluteBounds="10.39, 6.835, 1.9700000000000002, 1.9801025390625" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(10.375 : 7.49829223632813); (9.125 : 7.49829223632813); (9.125 : 5.125); (9 : 5.125); (9 : 4.56899251302083)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/MCCDataContext/mcc_Category/mcc_Category_mcc_ArticleCategory" />
+      <nodes>
+        <classShapeMoniker Id="e28e3e0d-b80c-4121-b854-5f3cc7e755ed" />
+        <classShapeMoniker Id="aefb378f-13b1-4b60-bee0-75796512d122" />
+      </nodes>
+    </associationConnector>
+    <classShape Id="8dffcb0f-e945-405d-8160-45717bbf1e83" absoluteBounds="3.375, 4, 2, 2.5401025390624996">
+      <DataClassMoniker Name="/MCCDataContext/mcc_AdviceCategory" />
+      <nestedChildShapes>
+        <elementListCompartment Id="d6316947-d4c8-4c7e-b80d-425d2e2632c3" absoluteBounds="3.39, 4.46, 1.9700000000000002, 1.9801025390625" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="6119a500-d93c-47ab-88e2-b0ecf8be9abd" absoluteBounds="5.625, 2.625, 2, 2.9247054036458326">
+      <DataClassMoniker Name="/MCCDataContext/mcc_Ticket" />
+      <nestedChildShapes>
+        <elementListCompartment Id="58ce2e49-3854-46aa-bad8-e7693ed16532" absoluteBounds="5.64, 3.085, 1.9700000000000002, 2.364705403645833" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="e05cee86-e29d-4cee-9911-8d6103aa4aa1" absoluteBounds="5.625, 0.5, 2, 1.7708968098958331">
+      <DataClassMoniker Name="/MCCDataContext/mcc_TicketChange" />
+      <nestedChildShapes>
+        <elementListCompartment Id="652d87da-41f2-4256-a891-add5dcbb3a28" absoluteBounds="5.64, 0.96, 1.9700000000000002, 1.2108968098958333" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(7.21875 : 2.625); (7.21875 : 2.27089680989583)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/MCCDataContext/mcc_Ticket/mcc_Ticket_mcc_TicketChange" />
+      <nodes>
+        <classShapeMoniker Id="6119a500-d93c-47ab-88e2-b0ecf8be9abd" />
+        <classShapeMoniker Id="e05cee86-e29d-4cee-9911-8d6103aa4aa1" />
+      </nodes>
+    </associationConnector>
+    <classShape Id="3684e181-7063-4fcc-a99e-45d69bb15a13" absoluteBounds="3.25, 12.625, 2, 2.3478011067708344">
+      <DataClassMoniker Name="/MCCDataContext/mcc_AdviceComment" />
+      <nestedChildShapes>
+        <elementListCompartment Id="d25cca2a-f2d6-4bc5-9785-2133973ca1fa" absoluteBounds="3.2649999999999997, 13.085, 1.9700000000000002, 1.7878011067708333" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="da1d6a7e-c927-4ef1-9064-f2c909c22eac" absoluteBounds="7, 7.875, 2, 2.5401025390625005">
+      <DataClassMoniker Name="/MCCDataContext/mcc_VideoCategory" />
+      <nestedChildShapes>
+        <elementListCompartment Id="9b220f0a-f288-498c-9904-605f62a13122" absoluteBounds="7.015, 8.335, 1.9700000000000002, 1.9801025390625" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="70734b25-ecad-4675-84cf-f7ab2624b47a" absoluteBounds="0.625, 8.375, 2, 1.1939925130208344">
+      <DataClassMoniker Name="/MCCDataContext/mcc_CategoriesVideo" />
+      <nestedChildShapes>
+        <elementListCompartment Id="d78de647-d45a-48d9-acd5-999f1cf9af4d" absoluteBounds="0.64000000000000012, 8.835, 1.9700000000000002, 0.63399251302083326" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(7 : 8.99829223632813); (5.1875 : 8.99829223632813); (5.1875 : 8.48038981119792); (4.4375 : 8.48038981119792); (4.4375 : 8.3125); (2.75583333333333 : 8.3125 : JumpStart); (2.58916666666667 : 8.3125 : JumpEnd); (1.625 : 8.3125); (1.625 : 8.375)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/MCCDataContext/mcc_VideoCategory/mcc_VideoCategory_mcc_CategoriesVideo" />
+      <nodes>
+        <classShapeMoniker Id="da1d6a7e-c927-4ef1-9064-f2c909c22eac" />
+        <classShapeMoniker Id="70734b25-ecad-4675-84cf-f7ab2624b47a" />
+      </nodes>
+    </associationConnector>
+    <classShape Id="2ea37dc0-c08f-4653-b6dd-29583b7c8d1c" absoluteBounds="1.375, 0.5, 2, 2.5401025390625">
+      <DataClassMoniker Name="/MCCDataContext/mcc_VideoComment" />
+      <nestedChildShapes>
+        <elementListCompartment Id="ffa51b1b-8aa8-4262-a6b7-dfb329ec8408" absoluteBounds="1.3900000000000001, 0.96, 1.9700000000000002, 1.9801025390625" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="c2cb5de7-845e-4d0e-ae76-dee18d35130e" absoluteBounds="13.75, 7.375, 2, 2.9247054036458326">
+      <DataClassMoniker Name="/MCCDataContext/mcc_WikiPage" />
+      <nestedChildShapes>
+        <elementListCompartment Id="65b605d0-75ca-4ac0-8551-7f302dea978a" absoluteBounds="13.765, 7.835, 1.9700000000000002, 2.364705403645833" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="a09a0dbb-291d-4e93-b2eb-06b0f10851b1" absoluteBounds="10.875, 10.875, 2, 1.9631982421875005">
+      <DataClassMoniker Name="/MCCDataContext/mcc_Poll" />
+      <nestedChildShapes>
+        <elementListCompartment Id="eaa86c34-d8d9-40ce-8b11-2fd3844ba0df" absoluteBounds="10.89, 11.335, 1.9700000000000002, 1.4031982421875" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="8c2fbe5e-fd40-4afa-94c7-f39976992f24" absoluteBounds="14.125, 11.125, 2, 1.9631982421875005">
+      <DataClassMoniker Name="/MCCDataContext/mcc_PollOption" />
+      <nestedChildShapes>
+        <elementListCompartment Id="bf7f749f-6a68-4a05-865e-e6a508a4928c" absoluteBounds="14.14, 11.585, 1.9700000000000002, 1.4031982421875" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(12.875 : 11.8767712402344); (14.125 : 11.8767712402344)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/MCCDataContext/mcc_Poll/mcc_Poll_mcc_PollOption" />
+      <nodes>
+        <classShapeMoniker Id="a09a0dbb-291d-4e93-b2eb-06b0f10851b1" />
+        <classShapeMoniker Id="8c2fbe5e-fd40-4afa-94c7-f39976992f24" />
+      </nodes>
+    </associationConnector>
+    <classShape Id="8ddb70ed-6446-4423-83ef-54ac12ea1dd5" absoluteBounds="0.5, 0.5, 2, 1.1939925130208333">
+      <DataClassMoniker Name="/MCCDataContext/mcc_ArticleAd" />
+      <nestedChildShapes>
+        <elementListCompartment Id="aad2d1c8-1126-464c-a9d9-8ba20f1c2b43" absoluteBounds="0.51500000000000012, 0.96, 1.9700000000000002, 0.63399251302083326" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(1.19621064828726 : 1.69399251302083); (1.19621064828726 : 1.94399251302083); (1.81825551131811 : 1.94399251302083); (1.81825551131811 : 1.69399251302083)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/MCCDataContext/mcc_ArticleAd/mcc_ArticleAd_mcc_ArticleAd" />
+      <nodes>
+        <classShapeMoniker Id="8ddb70ed-6446-4423-83ef-54ac12ea1dd5" />
+        <classShapeMoniker Id="8ddb70ed-6446-4423-83ef-54ac12ea1dd5" />
+      </nodes>
+    </associationConnector>
+    <classShape Id="69f4b851-1031-4b4a-8f97-c81c9f5789bb" absoluteBounds="6.875, 5.375, 2, 3.6939111328125005">
+      <DataClassMoniker Name="/MCCDataContext/mcc_WebEvent" />
+      <nestedChildShapes>
+        <elementListCompartment Id="d856b87d-84ea-4190-96af-001fc938a596" absoluteBounds="6.89, 5.835, 1.9700000000000002, 3.1339111328125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="4e2e215e-98ab-4f3a-968d-116c9fa2accb" absoluteBounds="1.375, 10, 2, 5.8092268880208326">
+      <DataClassMoniker Name="/MCCDataContext/mcc_Article" />
+      <nestedChildShapes>
+        <elementListCompartment Id="c2779d1e-7d9d-4099-904c-e13bbb3a17ac" absoluteBounds="1.3900000000000001, 10.46, 1.9700000000000002, 5.249226888020833" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(2.375 : 10); (2.375 : 9.53149251302083); (2.6725 : 9.53149251302083); (2.6725 : 6.4737939453125); (5.5775 : 6.4737939453125); (5.5775 : 5.51220540364583); (9.04166666666667 : 5.51220540364583 : JumpStart); (9.20833333333333 : 5.51220540364583 : JumpEnd); (9.4375005 : 5.51220540364583); (9.4375005 : 4.56899251302083)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/MCCDataContext/mcc_Article/mcc_Article_mcc_ArticleCategory" />
+      <nodes>
+        <classShapeMoniker Id="4e2e215e-98ab-4f3a-968d-116c9fa2accb" />
+        <classShapeMoniker Id="aefb378f-13b1-4b60-bee0-75796512d122" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(3.375 : 12.1550744042969); (8.75 : 12.1550744042969); (8.75 : 11.7228011067708)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/MCCDataContext/mcc_Article/mcc_Article_mcc_Comment" />
+      <nodes>
+        <classShapeMoniker Id="4e2e215e-98ab-4f3a-968d-116c9fa2accb" />
+        <classShapeMoniker Id="3f17d7ed-d998-47c8-89f5-ec3d6e708953" />
+      </nodes>
+    </associationConnector>
+    <classShape Id="b8b51871-f238-4875-9b18-f8764251b78f" absoluteBounds="4, 10.5, 2, 2.7324039713541666">
+      <DataClassMoniker Name="/MCCDataContext/mcc_Image" />
+      <nestedChildShapes>
+        <elementListCompartment Id="76079b6e-908d-407e-9d25-ef50411e225f" absoluteBounds="4.015, 10.96, 1.9700000000000002, 2.1724039713541665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="740ba25b-2231-4441-93b6-7cb66e3e2240" absoluteBounds="0.5, 6.375, 2, 1.1939925130208327">
+      <DataClassMoniker Name="/MCCDataContext/mcc_TagsArticle" />
+      <nestedChildShapes>
+        <elementListCompartment Id="ada47088-6da5-47a5-b4f7-397492aac496" absoluteBounds="0.51500000000000012, 6.835, 1.9700000000000002, 0.63399251302083326" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(1.375 : 12.9046134440104); (0.53125 : 12.9046134440104); (0.53125 : 7.56899251302083)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/MCCDataContext/mcc_Article/mcc_Article_mcc_TagsArticle" />
+      <nodes>
+        <classShapeMoniker Id="4e2e215e-98ab-4f3a-968d-116c9fa2accb" />
+        <classShapeMoniker Id="740ba25b-2231-4441-93b6-7cb66e3e2240" />
+      </nodes>
+    </associationConnector>
+    <classShape Id="30e5a20c-7d00-44c5-ac87-9c8ad3f67343" absoluteBounds="1, 5.125, 2, 1.3862939453124996">
+      <DataClassMoniker Name="/MCCDataContext/mcc_ArticleTag" />
+      <nestedChildShapes>
+        <elementListCompartment Id="99df8b31-65fc-44c6-967b-b142b0148c9b" absoluteBounds="1.0150000000000001, 5.585, 1.9700000000000002, 0.8262939453125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(1 : 5.84939647265625); (0.65625 : 5.84939647265625); (0.65625 : 6.375)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/MCCDataContext/mcc_ArticleTag/mcc_ArticleTag_mcc_TagsArticle" />
+      <nodes>
+        <classShapeMoniker Id="30e5a20c-7d00-44c5-ac87-9c8ad3f67343" />
+        <classShapeMoniker Id="740ba25b-2231-4441-93b6-7cb66e3e2240" />
+      </nodes>
+    </associationConnector>
+    <classShape Id="686ac14e-adb9-4526-a46e-332a28e829f2" absoluteBounds="14.125, 16.625, 2, 1.7708968098958344">
+      <DataClassMoniker Name="/MCCDataContext/mcc_UserAnswerComment" />
+      <nestedChildShapes>
+        <elementListCompartment Id="707e473a-374b-47e4-9430-da9dced15399" absoluteBounds="14.14, 17.085, 1.9700000000000002, 1.2108968098958333" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="a88412ff-61c4-42fb-b42f-9bbd9a0d0563" absoluteBounds="10.875, 13.375, 2, 1.7708968098958344">
+      <DataClassMoniker Name="/MCCDataContext/mcc_UserQuestionComment" />
+      <nestedChildShapes>
+        <elementListCompartment Id="5f7df022-0e76-4130-95ea-7681c8a21931" absoluteBounds="10.89, 13.835, 1.9700000000000002, 1.2108968098958333" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="5d4a8639-dba0-46a5-9d0f-ae531ff92ac4" absoluteBounds="0.625, 17, 2.125, 1.3862939453125023">
+      <DataClassMoniker Name="/MCCDataContext/mcc_UsersAnswer_Vote" />
+      <nestedChildShapes>
+        <elementListCompartment Id="859139c1-c5bf-4e85-b438-55ec90051a33" absoluteBounds="0.64000000000000012, 17.46, 2.0949999999999998, 0.8262939453125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="ff08ec89-9443-4f36-a2a3-185685bcb6f8" absoluteBounds="11.375, 16.5, 2, 2.15549967447917">
+      <DataClassMoniker Name="/MCCDataContext/mcc_UserAnswer" />
+      <nestedChildShapes>
+        <elementListCompartment Id="0b2845ea-3380-44c0-a826-d76307a241cf" absoluteBounds="11.39, 16.96, 1.9700000000000002, 1.5954996744791665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(13.375 : 17.4195975748698); (14.125 : 17.4195975748698)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/MCCDataContext/mcc_UserAnswer/mcc_UserAnswer_mcc_UserAnswerComment" />
+      <nodes>
+        <classShapeMoniker Id="ff08ec89-9443-4f36-a2a3-185685bcb6f8" />
+        <classShapeMoniker Id="686ac14e-adb9-4526-a46e-332a28e829f2" />
+      </nodes>
+    </associationConnector>
+    <classShape Id="9323eaeb-c0c4-46f6-b70c-52f219be0119" absoluteBounds="3.5, 17, 2, 1.3862939453125023">
+      <DataClassMoniker Name="/MCCDataContext/mcc_UsersQuestion_Vote" />
+      <nestedChildShapes>
+        <elementListCompartment Id="32ca824e-2148-42c8-917c-d72b88b2ab23" absoluteBounds="3.515, 17.46, 1.9700000000000002, 0.8262939453125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="5c930c92-8226-4225-bb26-e3181c033a4b" absoluteBounds="0.5, 13.75, 2, 4.0785139973958326">
+      <DataClassMoniker Name="/MCCDataContext/mcc_Video" />
+      <nestedChildShapes>
+        <elementListCompartment Id="864c3765-86af-4596-8c9d-c3e416ec4aad" absoluteBounds="0.515, 14.21, 1.9700000000000002, 3.518513997395833" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(0.96875 : 13.75); (0.96875 : 9.56899251302083)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/MCCDataContext/mcc_Video/mcc_Video_mcc_CategoriesVideo" />
+      <nodes>
+        <classShapeMoniker Id="5c930c92-8226-4225-bb26-e3181c033a4b" />
+        <classShapeMoniker Id="70734b25-ecad-4675-84cf-f7ab2624b47a" />
+      </nodes>
+    </associationConnector>
+    <classShape Id="9741d0aa-5cfb-4e16-8cea-9a3a0176a80e" absoluteBounds="16.375, 0.75, 2, 3.1170068359375005">
+      <DataClassMoniker Name="/MCCDataContext/mcc_Ad" />
+      <nestedChildShapes>
+        <elementListCompartment Id="7279dc14-2fee-404f-90c6-3490e6d13efe" absoluteBounds="16.39, 1.21, 1.9700000000000002, 2.5570068359375" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="09936c8c-d017-40cf-864b-37a3f2848787" absoluteBounds="8.125, 17.75, 2, 2.5401025390625023">
+      <DataClassMoniker Name="/MCCDataContext/mcc_UserQuestion" />
+      <nestedChildShapes>
+        <elementListCompartment Id="3b5b38b9-fc54-4d12-a1fb-49d83f7cc53b" absoluteBounds="8.14, 18.21, 1.9700000000000002, 1.9801025390625" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(9.125 : 17.75); (9.125 : 14.2604484049479); (10.875 : 14.2604484049479)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/MCCDataContext/mcc_UserQuestion/mcc_UserQuestion_mcc_UserQuestionComment" />
+      <nodes>
+        <classShapeMoniker Id="09936c8c-d017-40cf-864b-37a3f2848787" />
+        <classShapeMoniker Id="a88412ff-61c4-42fb-b42f-9bbd9a0d0563" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(10.125 : 18.2027498372396); (11.375 : 18.2027498372396)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/MCCDataContext/mcc_UserQuestion/mcc_UserQuestion_mcc_UserAnswer" />
+      <nodes>
+        <classShapeMoniker Id="09936c8c-d017-40cf-864b-37a3f2848787" />
+        <classShapeMoniker Id="ff08ec89-9443-4f36-a2a3-185685bcb6f8" />
+      </nodes>
+    </associationConnector>
+    <classShape Id="0c0c9381-26d4-45e3-ab84-ba8a3f1a0b7f" absoluteBounds="4.125, 3, 2, 1.3862939453125">
+      <DataClassMoniker Name="/MCCDataContext/mcc_VideoTag" />
+      <nestedChildShapes>
+        <elementListCompartment Id="7b0bb0b7-53ad-4d7d-b544-70594ad660bf" absoluteBounds="4.14, 3.46, 1.9700000000000002, 0.8262939453125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="a0722378-49dc-4f9d-80f6-be8a8058b02d" absoluteBounds="0.75, 3.375, 2, 1.3862939453125">
+      <DataClassMoniker Name="/MCCDataContext/mcc_ImageTag" />
+      <nestedChildShapes>
+        <elementListCompartment Id="33001c19-b566-481e-a42b-a407e8d223d9" absoluteBounds="0.765, 3.835, 1.9700000000000002, 0.8262939453125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="e53789ae-abf9-4cf1-ab02-8385bfd433a8" absoluteBounds="0.875, 18.75, 2, 1.3862939453125">
+      <DataClassMoniker Name="/MCCDataContext/mcc_ResetCode" />
+      <nestedChildShapes>
+        <elementListCompartment Id="f8e03059-1d0c-4c49-9062-dbf8fc3f23ad" absoluteBounds="0.89000000000000012, 19.21, 1.9700000000000002, 0.8262939453125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>

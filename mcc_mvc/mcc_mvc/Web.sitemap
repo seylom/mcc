@@ -1,0 +1,114 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<siteMap xmlns="http://mvcsitemap.codeplex.com/schemas/MvcSiteMap-File-1.0" enableLocalization="true">
+   <mvcSiteMapNode url="/" title="Home">
+ 
+   
+    <mvcSiteMapNode url="/Community" title="Community">
+    </mvcSiteMapNode>
+
+
+    <mvcSiteMapNode url="/mcc/Users/loginpage.aspx" title="Join - Login"  description="Join - Login" />
+    <mvcSiteMapNode url="/mcc/Users/PasswordRecovery.aspx" title="Password Recovery"  description="Password Recovery" />
+
+    <mvcSiteMapNode url="/Help" title="Help"   >
+      <mvcSiteMapNode url="/about" title="About Us" description="About Us"/>
+      <mvcSiteMapNode url="/Contact" title="Contact Us" description="Contact Us"/>
+      <mvcSiteMapNode url="/PrivacyPolicy" title="Privacy Policy" description="Privacy Policy"/>
+      <mvcSiteMapNode url="/termsofuse" title="Terms Of Use" description="Terms Of Use"/>
+
+      <mvcSiteMapNode url="/reportIssues" title="Issues" description="Report issues"/>
+      <mvcSiteMapNode url ="/submitContent" title="Submit content" description="Submit content"></mvcSiteMapNode>
+      <mvcSiteMapNode url="/feedback" title="feedbacks" >
+       <mvcSiteMapNode url="/feedbackConfirm" title="feedbacks" />
+        <mvcSiteMapNode url="/feedbackinfo" title="feedback information" />
+        <mvcSiteMapNode url="/feedback/submitfeedback" title="Submit your feedback" />
+      </mvcSiteMapNode>
+    </mvcSiteMapNode>
+
+    <mvcSiteMapNode url="/authors" title="Authors" />
+
+    <mvcSiteMapNode url="/search" title="Search"   />
+    <mvcSiteMapNode url="/sitemap" title="Sitemap"  description="MiddleClassCrunch SiteMap" />
+
+    <mvcSiteMapNode   controller="AdminHome" action="Index" title="Admin" roles="Administrators,Editors">
+      <mvcSiteMapNode url="/admin/notifications" title="Notifications"  roles="Administrators,Editors"/>
+      <mvcSiteMapNode url="/admin/pending_tasks" title="Pending Tasks" description="Pending Tasks" roles="Administrators,Editors"/>
+       <mvcSiteMapNode url="/admin/users/ManageUsers" title="Manage Users" description="Manage Users" roles="Administrators"/>
+      
+      <mvcSiteMapNode url="/admin/quotes_list" title="Quotes" description="Browse Quotes" roles="Administrators,Editors">
+        <mvcSiteMapNode url="/admin/quotes_add_edit" title="Add/Edit Quote" description="Add /Edit Quotes" roles="Administrators,Editors"/>
+      </mvcSiteMapNode>
+      
+      <mvcSiteMapNode  controller="ArticleAdmin" action="Index" title="Articles"  roles="Administrators,Editors">
+        <mvcSiteMapNode controller="ArticleAdmin" action="addeditarticle" title="Add / Edit article"   isDynamic="true" dynamicParameters="id" roles="Administrators,Editors"/>
+        <mvcSiteMapNode controller="ArticleCategoryAdmin" action="Index" title="Categories"  roles="Administrators,Editors"/>
+        <mvcSiteMapNode controller="ArticleAdmin" action="comments" title="Comments" roles="Administrators,Editors"/>
+        <mvcSiteMapNode controller="ArticleAdmin" action="reviewArticles" title="Reviews" roles="Administrators,Editors"/>
+        <mvcSiteMapNode controller="ArticleAdmin" action="PeekArticle" title="Peek Article"  roles="Administrators,Editors"/>
+      </mvcSiteMapNode>
+
+
+      <mvcSiteMapNode controller="TipAdmin" action="Index" title="Tips" description="Tips Management" roles="Administrators,Editors">
+         <mvcSiteMapNode controller="TipAdmin"  action="CreateTip" title="Create Tip" roles="Administrators,Editors"/>
+         <mvcSiteMapNode controller="TipAdmin"  action="EditTip" title="Edit Tip"  roles="Administrators,Editors"  isDynamic="true" dynamicParameters="id"/>
+         <mvcSiteMapNode controller="TipAdmin"  action="showcategories" title="Categories" roles="Administrators,Editors"/>
+         <mvcSiteMapNode controller="TipAdmin"  action="comments" title="Comments" roles="Administrators,Editors"/>
+      </mvcSiteMapNode>
+
+      <mvcSiteMapNode controller="VideoAdmin" action="Index" title="Videos" roles="Administrators,Editors">
+        <mvcSiteMapNode  controller="VideoAdmin" action="EditVideo" title="Add / Edit Videos" description="Add / Edit Tips" roles="Administrators,Editors"/>
+        <mvcSiteMapNode  controller="VideoAdmin" action="showcategories" title="Categories"  roles="Administrators,Editors"/>
+        <mvcSiteMapNode  controller="VideoAdmin" action="comments" title="Comments"  roles="Administrators,Editors"/>
+         <mvcSiteMapNode  controller="VideoAdmin" action="uploadvideofile" title="Upload Videos" description="Video upload" roles="Administrators,Editors"/>
+      </mvcSiteMapNode>
+
+        <mvcSiteMapNode controller="Tickets" action="Index" title="Tickets" description="Tickets Management" roles="Administrators">
+           <mvcSiteMapNode controller="Tickets" action="AddTicket" title="Add / Edit Tickets" description="Add / Edit Ticket" roles="Administrators"/>
+           <mvcSiteMapNode controller="Tickets" url="/admin/tickets/tickets_query" title="Tickets Filtering" description="Advanced Tickets Filter" roles="Administrators"/>
+           <mvcSiteMapNode controller="Tickets" action="ShowTicket" title="Ticket Detail" roles="Administrators"  isDynamic="true" dynamicParameters="id"/>
+        </mvcSiteMapNode>
+        
+        <mvcSiteMapNode controller="PollAdmin" action="Index" title="Polls"/>
+      
+      
+        <mvcSiteMapNode url="/admin/banned_ips" title="Banned IP Adresses" description="Banned IP Adresses" roles="Administrators"/>
+        <mvcSiteMapNode url="/admin/bad_words" title="Bad words" description="Bad Words" roles="Administrators,Editors"/>
+        <mvcSiteMapNode url="/admin/replace_words" title="Replace words" description="Replace Words" roles="Administrators,Editors"/>
+        <mvcSiteMapNode url="/admin/contentlist.aspx" title="User Content" description="User Content" roles="Administrators,Editors"/>
+        <mvcSiteMapNode url="/admin/cms_settings" title="CMS Settings" description="Default Settings" roles="Administrators"/>
+        <mvcSiteMapNode controller="AdminHome" action="ManagementTools" title="Management Tools" roles="Administrators"/>
+        
+      <mvcSiteMapNode controller="UserAdmin"  action="Index" title="Users"  roles="Administrators">
+        <mvcSiteMapNode controller="UserAdmin"  action="unapprovedusers" title="Unnapproved users" description="Unapproved users" roles="Administrators"/>
+         <mvcSiteMapNode controller="UserAdmin"  action="ShowRoles" title="Roles"  roles="Administrators"/>
+      </mvcSiteMapNode>
+
+       <mvcSiteMapNode controller="AskAdmin"  action="Index" title="questions"  roles="Administrators">
+          <mvcSiteMapNode controller="AskAdmin"  action="Answers" title="question answers"   isDynamic="true" roles="Administrators,Editors"/>
+          <mvcSiteMapNode controller="AskAdmin"  action="questioncomments" title="questions comments" />
+          <mvcSiteMapNode controller="AskAdmin"  action="answercomments" title="answers comments"   />
+       </mvcSiteMapNode>
+
+      <mvcSiteMapNode url="/admin/wiki_pages/" title="Wiki Pages"   roles="Administrators,Editors">
+        <mvcSiteMapNode url="/admin/wiki_help" title="Wiki help"   roles="Administrators,Editors"/>
+        <mvcSiteMapNode url="/admin/wiki/add_wiki_page" title="Add / Edit Wiki page"  roles="Administrators,Editors"/>
+      </mvcSiteMapNode>
+
+      <mvcSiteMapNode controller="ImageAdmin" action="Index" title="Images"  roles="Administrators,Editors">
+         <mvcSiteMapNode controller="ImageAdmin"  action="uploadimages" title="Upload Images"  roles="Administrators,Editors"/>
+         <mvcSiteMapNode controller="ImageAdmin"  action="CreateThumbnails" title="Create Thumbnails"   isDynamic="true" roles="Administrators,Editors"/>
+         <mvcSiteMapNode controller="ImageAdmin"  action="ShowImage" title="Image Details"    roles="Administrators,Editors"  isDynamic="true" dynamicParameters="id" />
+         <mvcSiteMapNode controller="ImageAdmin"  action="UpdateImage" title="Image Details"   roles="Administrators,Editors"  isDynamic="true" dynamicParameters="id" />
+      </mvcSiteMapNode>
+
+       <mvcSiteMapNode controller="QuoteAdmin" action="Index" title="Quotes"  roles="Administrators,Editors">
+       
+       </mvcSiteMapNode>
+       
+      <mvcSiteMapNode  controller="AdAdmin" action="index" title="Manage Affiliates"   roles="Administrators,Editors">
+         <mvcSiteMapNode  controller="AdAdmin" action="CreateAd" title="Create Affiliates Ads"  roles="Administrators,Editors"/>
+      </mvcSiteMapNode>
+      
+    </mvcSiteMapNode>
+  </mvcSiteMapNode>
+</siteMap>

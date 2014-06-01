@@ -1,0 +1,54 @@
+﻿*
+{
+	margin: 0;
+	padding: 0;
+}
+body
+{
+	font-family: verdana,georgia,Tahoma,Helvetica,Geneva,sans-serif;
+	background: #EEEEEE url(../../_assets/images/body3.jpg) repeat;
+	font-size: 11px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: normal;
+	line-height: normal;
+	color: #393737;
+}
+.mcc_defaultContainer
+{
+	margin-top: 5px;
+	padding: 20px;
+	background: #fff;
+}
+.mbc
+{
+	margin-top: 3px;
+	padding: 10px;
+	border: 1px solid #888888;
+}
+.mcc_container
+{
+	text-align: left;
+	margin-left: auto;
+	margin-right: auto;
+}
+.brdbx
+{
+	padding: 10px;
+	border: 1px solid #888888;
+}
+.mcc_container .contentContainer
+{
+	background-color: Transparent;
+}
+.wrapper
+{
+	margin: 0 auto;
+	min-width: 800px;
+	width: 980px;
+}
+.main-wrapper
+{
+	margin: 0 20px 0 20px;
+	padding: 2px 0;
+}

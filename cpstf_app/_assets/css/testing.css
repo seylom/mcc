@@ -1,0 +1,34 @@
+﻿body {
+}
+
+
+ul#nmenu
+{
+    list-style-type:none;
+    width:800px;
+}
+
+ul#nmenu li
+{
+    list-style-type:none;
+    padding:0 5px;
+    float:left;
+}
+
+ul#nmenu li a
+{
+   display:block;
+   font-size:12px;
+   font-family:Georgia,san-serif;
+   text-decoration:none;
+   font-weight:bold;
+   padding:2px 20px;
+   margin:2px 0;
+   color:#4f4f4f;
+   /*border-right:1px dotted #4f55a8;*/
+}
+ul#nmenu li a.active,ul#nmenu li a:hover
+{
+    background:#994138;
+    color:#f1f1f1;
+}

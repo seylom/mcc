@@ -1,0 +1,558 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>
+    </SchemaVersion>
+    <ProjectGuid>{56EABF27-86B2-4BD0-8F59-F80D29E8D901}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{F184B08F-C81C-45F6-A57F-5ABD9991F28F}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <RootNamespace>cpstf_app</RootNamespace>
+    <AssemblyName>cpstf_app</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <MyType>Custom</MyType>
+    <TargetFrameworkProfile />
+    <UseIISExpress>false</UseIISExpress>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>4.0</OldToolsVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\</OutputPath>
+    <DocumentationFile>cpstf_app.xml</DocumentationFile>
+    <NoWarn>42353,42354,42355</NoWarn>
+    <WarningsAsErrors>41999,42016,42017,42018,42019,42020,42021,42022,42032,42036</WarningsAsErrors>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DocumentationFile>cpstf_app.xml</DocumentationFile>
+    <NoWarn>42353,42354,42355</NoWarn>
+    <WarningsAsErrors>41999,42016,42017,42018,42019,42020,42021,42022,42032,42036</WarningsAsErrors>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>On</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Staging|AnyCPU'">
+    <DebugSymbols>true</DebugSymbols>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\</OutputPath>
+    <DocumentationFile>cpstf_app.xml</DocumentationFile>
+    <DebugType>full</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <WarningsAsErrors>41999,42016,42017,42018,42019,42020,42021,42022,42032,42036</WarningsAsErrors>
+    <CodeAnalysisLogFile>bin\cpstf_app.dll.CodeAnalysisLog.xml</CodeAnalysisLogFile>
+    <CodeAnalysisUseTypeNameInSuppression>true</CodeAnalysisUseTypeNameInSuppression>
+    <CodeAnalysisModuleSuppressionsFile>GlobalSuppressions.vb</CodeAnalysisModuleSuppressionsFile>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRuleSetDirectories>;C:\Program Files (x86)\Microsoft Visual Studio 10.0\Team Tools\Static Analysis Tools\\Rule Sets</CodeAnalysisRuleSetDirectories>
+    <CodeAnalysisRuleDirectories>;C:\Program Files (x86)\Microsoft Visual Studio 10.0\Team Tools\Static Analysis Tools\FxCop\\Rules</CodeAnalysisRuleDirectories>
+    <NoWarn>42353,42354,42355</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Collections.Specialized" />
+    <Import Include="System.Configuration" />
+    <Import Include="System.Text" />
+    <Import Include="System.Text.RegularExpressions" />
+    <Import Include="System.Web" />
+    <Import Include="System.Web.Caching" />
+    <Import Include="System.Web.SessionState" />
+    <Import Include="System.Web.Security" />
+    <Import Include="System.Web.Profile" />
+    <Import Include="System.Web.UI" />
+    <Import Include="System.Web.UI.WebControls" />
+    <Import Include="System.Web.UI.WebControls.WebParts" />
+    <Import Include="System.Web.UI.HtmlControls" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Default.aspx" />
+    <Content Include="default.htm" />
+    <Content Include="Web.config" />
+    <Content Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="_assets\css\admin.css" />
+    <Content Include="_assets\css\adminsimple.css" />
+    <Content Include="_assets\css\adminsimple_full.css" />
+    <Content Include="_assets\css\admin_full.css" />
+    <Content Include="_assets\css\article.css" />
+    <Content Include="_assets\css\article_full.css" />
+    <Content Include="_assets\css\bbcode\buttons.gif" />
+    <Content Include="_assets\css\bbcode\style.css" />
+    <Content Include="_assets\css\common.css" />
+    <Content Include="_assets\css\common_full.css" />
+    <Content Include="_assets\css\dark.css" />
+    <Content Include="_assets\css\dark_full.css" />
+    <Content Include="_assets\css\datePicker.css" />
+    <Content Include="_assets\css\full.css" />
+    <Content Include="_assets\css\ieHacks.css" />
+    <Content Include="_assets\css\imageBrowser.css" />
+    <Content Include="_assets\css\jqModal.css" />
+    <Content Include="_assets\css\jquery.autocompletefb.css" />
+    <Content Include="_assets\css\jquery.Jcrop.css" />
+    <Content Include="_assets\css\jquery.rating.css" />
+    <Content Include="_assets\css\print.css" />
+    <Content Include="_assets\css\print_full.css" />
+    <Content Include="_assets\css\questions.css" />
+    <Content Include="_assets\css\questions_full.css" />
+    <Content Include="_assets\css\testing.css" />
+    <Content Include="_assets\css\tests.css" />
+    <Content Include="_assets\css\themes\mcc\demo.html" />
+    <Content Include="_assets\css\themes\mcc\images\222222_256x240_icons_icons.png" />
+    <Content Include="_assets\css\themes\mcc\images\2e83ff_256x240_icons_icons.png" />
+    <Content Include="_assets\css\themes\mcc\images\454545_256x240_icons_icons.png" />
+    <Content Include="_assets\css\themes\mcc\images\888888_256x240_icons_icons.png" />
+    <Content Include="_assets\css\themes\mcc\images\aaaaaa_40x100_textures_01_flat_0.png" />
+    <Content Include="_assets\css\themes\mcc\images\cccccc_40x100_textures_03_highlight_soft_75.png" />
+    <Content Include="_assets\css\themes\mcc\images\cd0a0a_256x240_icons_icons.png" />
+    <Content Include="_assets\css\themes\mcc\images\dadada_40x100_textures_02_glass_75.png" />
+    <Content Include="_assets\css\themes\mcc\images\e6e6e6_40x100_textures_02_glass_75.png" />
+    <Content Include="_assets\css\themes\mcc\images\fbf9ee_40x100_textures_02_glass_55.png" />
+    <Content Include="_assets\css\themes\mcc\images\fef1ec_40x100_textures_05_inset_soft_95.png" />
+    <Content Include="_assets\css\themes\mcc\images\ffffff_40x100_textures_02_glass_65.png" />
+    <Content Include="_assets\css\themes\mcc\images\ffffff_40x100_textures_02_glass_75.png" />
+    <Content Include="_assets\css\themes\mcc\ui.accordion.css" />
+    <Content Include="_assets\css\themes\mcc\ui.all.css" />
+    <Content Include="_assets\css\themes\mcc\ui.allplugins.css" />
+    <Content Include="_assets\css\themes\mcc\ui.core.css" />
+    <Content Include="_assets\css\themes\mcc\ui.datepicker.css" />
+    <Content Include="_assets\css\themes\mcc\ui.dialog.css" />
+    <Content Include="_assets\css\themes\mcc\ui.progressbar.css" />
+    <Content Include="_assets\css\themes\mcc\ui.resizable.css" />
+    <Content Include="_assets\css\themes\mcc\ui.slider.css" />
+    <Content Include="_assets\css\themes\mcc\ui.tabs.css" />
+    <Content Include="_assets\css\themes\mcc\ui.theme.css" />
+    <Content Include="_assets\css\thickbox.css" />
+    <Content Include="_assets\css\tipsy.css" />
+    <Content Include="_assets\css\user_article.css" />
+    <Content Include="_assets\Images\about.png" />
+    <Content Include="_assets\Images\Accept24.png" />
+    <Content Include="_assets\Images\accessdenied.png" />
+    <Content Include="_assets\Images\ad-bg.gif" />
+    <Content Include="_assets\Images\addBtn.gif" />
+    <Content Include="_assets\Images\ads\Iron-Man-2.jpg" />
+    <Content Include="_assets\Images\ads\Iron-Man-2.png" />
+    <Content Include="_assets\Images\ads\IronMan2Poster.jpg" />
+    <Content Include="_assets\Images\ads\IronMan2SegaGame.jpg" />
+    <Content Include="_assets\Images\all_parts.gif" />
+    <Content Include="_assets\Images\animationProcessing.gif" />
+    <Content Include="_assets\Images\ap-center.png" />
+    <Content Include="_assets\Images\ap-left.png" />
+    <Content Include="_assets\Images\ap-right.png" />
+    <Content Include="_assets\Images\asc.gif" />
+    <Content Include="_assets\Images\ask_logo.png" />
+    <Content Include="_assets\Images\atom.gif" />
+    <Content Include="_assets\Images\bg-hilights.jpg" />
+    <Content Include="_assets\Images\bg-hilights2.jpg" />
+    <Content Include="_assets\Images\bg-hilights2.png" />
+    <Content Include="_assets\Images\bg-sprite.png" />
+    <Content Include="_assets\Images\bg.gif" />
+    <Content Include="_assets\Images\bgd1.jpg" />
+    <Content Include="_assets\Images\blank-video.png" />
+    <Content Include="_assets\Images\blnk-nsvd.png" />
+    <Content Include="_assets\Images\blnkvd.png" />
+    <Content Include="_assets\Images\blockquote.png" />
+    <Content Include="_assets\Images\blockshadowlarge.gif" />
+    <Content Include="_assets\Images\blue_hd_bg.png" />
+    <Content Include="_assets\Images\body.jpg" />
+    <Content Include="_assets\Images\body2.jpg" />
+    <Content Include="_assets\Images\body2.png" />
+    <Content Include="_assets\Images\body3.jpg" />
+    <Content Include="_assets\Images\bottom_c48c15.png" />
+    <Content Include="_assets\Images\bottom_ccc.gif" />
+    <Content Include="_assets\Images\btn_blue.png" />
+    <Content Include="_assets\Images\btn_browse_blue.png" />
+    <Content Include="_assets\Images\btn_browse_red.png" />
+    <Content Include="_assets\Images\btn_cancel_blue.png" />
+    <Content Include="_assets\Images\btn_cancel_red.png" />
+    <Content Include="_assets\Images\btn_create.png" />
+    <Content Include="_assets\Images\btn_create_blue.png" />
+    <Content Include="_assets\Images\btn_insert_blue.png" />
+    <Content Include="_assets\Images\btn_insert_red.png" />
+    <Content Include="_assets\Images\btn_ok_blue.png" />
+    <Content Include="_assets\Images\btn_ok_red.png" />
+    <Content Include="_assets\Images\btn_post_blue.png" />
+    <Content Include="_assets\Images\btn_post_red.png" />
+    <Content Include="_assets\Images\btn_quote.png" />
+    <Content Include="_assets\Images\btn_red.png" />
+    <Content Include="_assets\Images\btn_reply.png" />
+    <Content Include="_assets\Images\btn_search_gray-hv.png" />
+    <Content Include="_assets\Images\btn_search_gray.png" />
+    <Content Include="_assets\Images\btn_send_blue.png" />
+    <Content Include="_assets\Images\btn_send_red.png" />
+    <Content Include="_assets\Images\btn_submit_blue.png" />
+    <Content Include="_assets\Images\btn_submit_red.png" />
+    <Content Include="_assets\Images\btn_update_blue.png" />
+    <Content Include="_assets\Images\btn_update_red.png" />
+    <Content Include="_assets\Images\bubble.gif" />
+    <Content Include="_assets\Images\button_arrow_down.gif" />
+    <Content Include="_assets\Images\button_arrow_left.gif" />
+    <Content Include="_assets\Images\button_arrow_right.gif" />
+    <Content Include="_assets\Images\Calendar_scheduleHS.png" />
+    <Content Include="_assets\Images\close_icon_double.png" />
+    <Content Include="_assets\Images\close_icon_double_light.png" />
+    <Content Include="_assets\Images\collapsed.png" />
+    <Content Include="_assets\Images\corners4.png" />
+    <Content Include="_assets\Images\credential_required.jpg" />
+    <Content Include="_assets\Images\darkgrid.png" />
+    <Content Include="_assets\Images\darkgrid_light.png" />
+    <Content Include="_assets\Images\delete.gif" />
+    <Content Include="_assets\Images\desc.gif" />
+    <Content Include="_assets\Images\details-bg.png" />
+    <Content Include="_assets\Images\Disk-download.png" />
+    <Content Include="_assets\Images\Doc-Info.png" />
+    <Content Include="_assets\Images\drop_arrow.png" />
+    <Content Include="_assets\Images\drop_arrow_over.png" />
+    <Content Include="_assets\Images\earthback.jpg" />
+    <Content Include="_assets\Images\error.png" />
+    <Content Include="_assets\Images\ex-bg.png" />
+    <Content Include="_assets\Images\expanded.png" />
+    <Content Include="_assets\Images\favicon.ico" />
+    <Content Include="_assets\Images\finance1.jpg" />
+    <Content Include="_assets\Images\gradient-r.png" />
+    <Content Include="_assets\Images\gradient-ro.png" />
+    <Content Include="_assets\Images\gray_hd_bg.png" />
+    <Content Include="_assets\Images\hd_bg_sort.png" />
+    <Content Include="_assets\Images\header-background.jpg" />
+    <Content Include="_assets\Images\header-widget.png" />
+    <Content Include="_assets\Images\highlights.png" />
+    <Content Include="_assets\Images\homebg.gif" />
+    <Content Include="_assets\Images\homebg.png" />
+    <Content Include="_assets\Images\homebg_cb.png" />
+    <Content Include="_assets\Images\homebg_cb2.png" />
+    <Content Include="_assets\Images\icon-beta.png" />
+    <Content Include="_assets\Images\icon_maintenance.gif" />
+    <Content Include="_assets\Images\icon_post.gif" />
+    <Content Include="_assets\Images\img-bg.png" />
+    <Content Include="_assets\Images\im_bd.jpg" />
+    <Content Include="_assets\Images\indicator.gif" />
+    <Content Include="_assets\Images\Jcrop.gif" />
+    <Content Include="_assets\Images\Left.png" />
+    <Content Include="_assets\Images\li_bullet.gif" />
+    <Content Include="_assets\Images\li_headlinebullet.gif" />
+    <Content Include="_assets\Images\loader.gif" />
+    <Content Include="_assets\Images\loading-animated-circle.gif" />
+    <Content Include="_assets\Images\lock.png" />
+    <Content Include="_assets\Images\login-required.png" />
+    <Content Include="_assets\Images\login_bg.png" />
+    <Content Include="_assets\Images\logo.png" />
+    <Content Include="_assets\Images\logo2.png" />
+    <Content Include="_assets\Images\logo3.png" />
+    <Content Include="_assets\Images\logo_crunch.png" />
+    <Content Include="_assets\Images\logo_crunch2.gif" />
+    <Content Include="_assets\Images\logo_crunch2.png" />
+    <Content Include="_assets\Images\logo_crunch3.png" />
+    <Content Include="_assets\Images\logo_crunch4.png" />
+    <Content Include="_assets\Images\logo_mini.png" />
+    <Content Include="_assets\Images\mcc-bullet-12.png" />
+    <Content Include="_assets\Images\mcc-bullet-14.png" />
+    <Content Include="_assets\Images\mcc-bullet-blue.png" />
+    <Content Include="_assets\Images\mcc-bullet-gray.png" />
+    <Content Include="_assets\Images\mcc-bullet-green.png" />
+    <Content Include="_assets\Images\mcc-bullet-orange.png" />
+    <Content Include="_assets\Images\mcc-bullet-red.png" />
+    <Content Include="_assets\Images\mcc-sprite.png" />
+    <Content Include="_assets\Images\mcc_header.png" />
+    <Content Include="_assets\Images\menu-bullet.gif" />
+    <Content Include="_assets\Images\micro-bullet-sprite.png" />
+    <Content Include="_assets\Images\MicroIcons\bullet_orange.gif" />
+    <Content Include="_assets\Images\MicroIcons\comment.gif" />
+    <Content Include="_assets\Images\MicroIcons\delete.png" />
+    <Content Include="_assets\Images\MicroIcons\edit.png" />
+    <Content Include="_assets\Images\MicroIcons\Info.png" />
+    <Content Include="_assets\Images\MicroIcons\iVideo.gif" />
+    <Content Include="_assets\Images\MicroIcons\listing.png" />
+    <Content Include="_assets\Images\MicroIcons\mail.gif" />
+    <Content Include="_assets\Images\MicroIcons\Mail.png" />
+    <Content Include="_assets\Images\MicroIcons\News.png" />
+    <Content Include="_assets\Images\MicroIcons\ok.gif" />
+    <Content Include="_assets\Images\MicroIcons\ok_img.gif" />
+    <Content Include="_assets\Images\MicroIcons\print.gif" />
+    <Content Include="_assets\Images\MicroIcons\Printer.png" />
+    <Content Include="_assets\Images\MicroIcons\Talk.png" />
+    <Content Include="_assets\Images\MicroIcons\User-Info.png" />
+    <Content Include="_assets\Images\more.png" />
+    <Content Include="_assets\Images\MoveThread.png" />
+    <Content Include="_assets\Images\navigator.gif" />
+    <Content Include="_assets\Images\Next.png" />
+    <Content Include="_assets\Images\noavatar.gif" />
+    <Content Include="_assets\Images\OK24.png" />
+    <Content Include="_assets\Images\overlay.png" />
+    <Content Include="_assets\Images\padlock_img.gif" />
+    <Content Include="_assets\Images\perks_bg_orange.png" />
+    <Content Include="_assets\Images\pic-hold.png" />
+    <Content Include="_assets\Images\pic-holder-proj2.png" />
+    <Content Include="_assets\Images\pixel-v.gif" />
+    <Content Include="_assets\Images\play.png" />
+    <Content Include="_assets\Images\play_ico.png" />
+    <Content Include="_assets\Images\play_ico_sm.png" />
+    <Content Include="_assets\Images\play_mini.png" />
+    <Content Include="_assets\Images\Previous.png" />
+    <Content Include="_assets\Images\prev_next.png" />
+    <Content Include="_assets\Images\progress.gif" />
+    <Content Include="_assets\Images\quote.png" />
+    <Content Include="_assets\Images\rating.png" />
+    <Content Include="_assets\Images\rb-btn-sprite.png" />
+    <Content Include="_assets\Images\remote.gif" />
+    <Content Include="_assets\Images\removeBtn.gif" />
+    <Content Include="_assets\Images\rss.gif" />
+    <Content Include="_assets\Images\s-blue.jpg" />
+    <Content Include="_assets\Images\s-red.jpg" />
+    <Content Include="_assets\Images\search-cat-listbox.png" />
+    <Content Include="_assets\Images\smart-quotes.png" />
+    <Content Include="_assets\Images\spin.gif" />
+    <Content Include="_assets\Images\star.gif" />
+    <Content Include="_assets\Images\stars.png" />
+    <Content Include="_assets\Images\star_empty.gif" />
+    <Content Include="_assets\Images\star_half.gif" />
+    <Content Include="_assets\Images\star_on.gif" />
+    <Content Include="_assets\Images\star_small.gif" />
+    <Content Include="_assets\Images\test-bg.png" />
+    <Content Include="_assets\Images\Thread.png" />
+    <Content Include="_assets\Images\ThreadHot.png" />
+    <Content Include="_assets\Images\tipsy.gif" />
+    <Content Include="_assets\Images\tl.png" />
+    <Content Include="_assets\Images\updown.png" />
+    <Content Include="_assets\Images\Upload.png" />
+    <Content Include="_assets\Images\vb.jpg" />
+    <Content Include="_assets\Images\vote-down-q.png" />
+    <Content Include="_assets\Images\vote-down.png" />
+    <Content Include="_assets\Images\vote-up-g.png" />
+    <Content Include="_assets\Images\vote-up-q.png" />
+    <Content Include="_assets\Images\vote-up.png" />
+    <Content Include="_assets\Images\widget-bg.png" />
+    <Content Include="_assets\Scripts\bbcode\jquery.bbcodeeditor-1.0.min.js" />
+    <Content Include="_assets\Scripts\createSpace.js" />
+    <Content Include="_assets\Scripts\date.js" />
+    <Content Include="_assets\Scripts\date.pack.js" />
+    <Content Include="_assets\Scripts\documentation.js" />
+    <Content Include="_assets\Scripts\facelist\css\facelist.css" />
+    <Content Include="_assets\Scripts\facelist\images\close.gif" />
+    <Content Include="_assets\Scripts\facelist\images\token.gif" />
+    <Content Include="_assets\Scripts\facelist\images\token_hover.gif" />
+    <Content Include="_assets\Scripts\facelist\images\token_selected.gif" />
+    <Content Include="_assets\Scripts\facelist\images\token_x.gif" />
+    <Content Include="_assets\Scripts\flowplayer.js" />
+    <Content Include="_assets\Scripts\_flowplayer.js" />
+    <Content Include="_assets\Scripts\global.js" />
+    <Content Include="_assets\Scripts\images\bg-fill.png" />
+    <Content Include="_assets\Scripts\images\bg.png" />
+    <Content Include="_assets\Scripts\images\blockquote.png" />
+    <Content Include="_assets\Scripts\images\bold.png" />
+    <Content Include="_assets\Scripts\images\code.png" />
+    <Content Include="_assets\Scripts\images\h1.png" />
+    <Content Include="_assets\Scripts\images\hr.png" />
+    <Content Include="_assets\Scripts\images\img.png" />
+    <Content Include="_assets\Scripts\images\italic.png" />
+    <Content Include="_assets\Scripts\images\link.png" />
+    <Content Include="_assets\Scripts\images\ol.png" />
+    <Content Include="_assets\Scripts\images\redo.png" />
+    <Content Include="_assets\Scripts\images\separator.png" />
+    <Content Include="_assets\Scripts\images\ul.png" />
+    <Content Include="_assets\Scripts\images\undo.png" />
+    <Content Include="_assets\Scripts\images\wmd-on.png" />
+    <Content Include="_assets\Scripts\images\wmd.png" />
+    <Content Include="_assets\Scripts\jquery\jqDnR.js" />
+    <Content Include="_assets\Scripts\jquery\jqModal.js" />
+    <Content Include="_assets\Scripts\jquery\jquery-1.2.6.js" />
+    <Content Include="_assets\Scripts\jquery\jquery-1.2.6.vs-doc.js" />
+    <Content Include="_assets\Scripts\jquery\jquery-jtemplates.js" />
+    <Content Include="_assets\Scripts\jquery\jquery-jtemplates_uncompressed.js" />
+    <Content Include="_assets\Scripts\jquery\jquery.accordion.js" />
+    <Content Include="_assets\Scripts\jquery\jquery.autocomplete.js" />
+    <Content Include="_assets\Scripts\jquery\jquery.autocomplete2.pack.js" />
+    <Content Include="_assets\Scripts\jquery\jquery.autocompletefb.js" />
+    <Content Include="_assets\Scripts\jquery\jquery.bgiframe.min.js" />
+    <Content Include="_assets\Scripts\jquery\jquery.blockUI.js" />
+    <Content Include="_assets\Scripts\jquery\jquery.cluetip.js" />
+    <Content Include="_assets\Scripts\jquery\jquery.datepicker.js" />
+    <Content Include="_assets\Scripts\jquery\jquery.datePicker.min-2.1.2.js" />
+    <Content Include="_assets\Scripts\jquery\jquery.dimensions.js" />
+    <Content Include="_assets\Scripts\jquery\jquery.easing.js" />
+    <Content Include="_assets\Scripts\jquery\jquery.editinplace.packed.js" />
+    <Content Include="_assets\Scripts\jquery\jquery.effects.js" />
+    <Content Include="_assets\Scripts\jquery\jquery.facelist.js" />
+    <Content Include="_assets\Scripts\jquery\jquery.Jcrop.js" />
+    <Content Include="_assets\Scripts\jquery\jquery.Jcrop.min.js" />
+    <Content Include="_assets\Scripts\jquery\jquery.js" />
+    <Content Include="_assets\Scripts\jquery\jquery.metadata.min.js" />
+    <Content Include="_assets\Scripts\jquery\jquery.MultiFile.pack.js" />
+    <Content Include="_assets\Scripts\jquery\jquery.pngFix.js" />
+    <Content Include="_assets\Scripts\jquery\jquery.qtip.js" />
+    <Content Include="_assets\Scripts\jquery\jquery.rating.js" />
+    <Content Include="_assets\Scripts\jquery\jquery.rating.stagging.js" />
+    <Content Include="_assets\Scripts\jquery\jquery.scrollTo-1.4.2-min.js" />
+    <Content Include="_assets\Scripts\jquery\jquery.serialScroll-1.2.1-min.js" />
+    <Content Include="_assets\Scripts\jquery\jquery.serialScroll-1.2.1.js" />
+    <Content Include="_assets\Scripts\jquery\jquery.tablesorter.min.js" />
+    <Content Include="_assets\Scripts\jquery\jquery.tipsy.js" />
+    <Content Include="_assets\Scripts\jquery\jquery.validate.min.js" />
+    <Content Include="_assets\Scripts\jquery\jquery_new.js" />
+    <Content Include="_assets\Scripts\jquery\ui.core.js" />
+    <Content Include="_assets\Scripts\jquery\ui.tabs.js" />
+    <Content Include="_assets\Scripts\json2.js" />
+    <Content Include="_assets\Scripts\mcc_basics.js" />
+    <Content Include="_assets\Scripts\pngfix.js" />
+    <Content Include="_assets\Scripts\polls.js" />
+    <Content Include="_assets\Scripts\questions.js" />
+    <Content Include="_assets\Scripts\stagging\admin-utils.stagging.js" />
+    <Content Include="_assets\Scripts\stagging\global.stagging.js" />
+    <Content Include="_assets\Scripts\stagging\mcc_basics.stagging.js" />
+    <Content Include="_assets\Scripts\stagging\polls.stagging.js" />
+    <Content Include="_assets\Scripts\stagging\questions.stagging.js" />
+    <Content Include="_assets\Scripts\stagging\tips.stagging.js" />
+    <Content Include="_assets\Scripts\stagging\utils.stagging.js" />
+    <Content Include="_assets\Scripts\stagging\video.stagging.js" />
+    <Content Include="_assets\Scripts\swfobject.js" />
+    <Content Include="_assets\Scripts\swfobject2.0.js" />
+    <Content Include="_assets\Scripts\tabs.js" />
+    <Content Include="_assets\Scripts\Text_diff.js" />
+    <Content Include="_assets\Scripts\thickbox.min.js" />
+    <Content Include="_assets\Scripts\tips.js" />
+    <Content Include="_assets\Scripts\ui.stars.js" />
+    <Content Include="_assets\Scripts\utils.js" />
+    <Content Include="_assets\Scripts\video.js" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="app\AssetsHelper.vb" />
+    <Compile Include="Default.aspx.vb">
+      <SubType>ASPXCodeBehind</SubType>
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Default.aspx.designer.vb">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\MyExtensions\MyWebExtension.vb">
+      <VBMyExtensionTemplateID>Microsoft.VisualBasic.Web.MyExtension</VBMyExtensionTemplateID>
+      <VBMyExtensionTemplateVersion>1.0.0.0</VBMyExtensionTemplateVersion>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="ImageThumb.ashx" />
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <Content Include="Uploads\web.config" />
+    <Content Include="Web.Staging.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <None Include="_assets\css\fonts\LeagueGothic.otf" />
+    <None Include="_assets\css\league_gothic-webfont.eot" />
+    <None Include="_assets\css\league_gothic-webfont.svg" />
+    <None Include="_assets\css\league_gothic-webfont.ttf" />
+    <None Include="_assets\css\league_gothic-webfont.woff" />
+    <None Include="_assets\Images\MicroIcons\Thumbs.db" />
+    <Content Include="_assets\Images\web.config" />
+    <Content Include="_assets\Scripts\web.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="App_Data\" />
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.VisualBasic.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>False</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>59212</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>
+          </IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

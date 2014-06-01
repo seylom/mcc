@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/">
+  <ShortName>Middle Class Crunch</ShortName>
+  <Description>Search MiddleClassCrunch.com for articles - tips - videos!</Description>
+  <Tags>Middle Class Crunch Financial Tips Advices and Discussion</Tags>
+  <Url type="text/html" template="http://www.middleclasscrunch.com/search?q={searchTerms}"/>
+  <Image height="16" width="16" type="image/x-icon">http://www.middleclasscrunch.com/favicon.ico</Image>
+  <InputEncoding>UTF-8</InputEncoding>
+</OpenSearchDescription>
+

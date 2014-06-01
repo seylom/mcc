@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 8.625" name="umc">
+  <DataContextMoniker Name="/umcDataContext" />
+  <nestedChildShapes>
+    <classShape Id="7d7c2d8e-87a8-4d05-a62b-8ebef38d641f" absoluteBounds="1.625, 3.5, 2, 4.8477197265625">
+      <DataClassMoniker Name="/umcDataContext/aspnet_Membership" />
+      <nestedChildShapes>
+        <elementListCompartment Id="f7391d0d-d3c6-4353-aac0-20943206a84f" absoluteBounds="1.6400000000000001, 3.96, 1.9700000000000002, 4.2877197265625" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="8cf2b05c-59c9-46ac-95cc-e40f0e90e8c9" absoluteBounds="4.625, 0.5, 2, 1.7708968098958331">
+      <DataClassMoniker Name="/umcDataContext/aspnet_Profile" />
+      <nestedChildShapes>
+        <elementListCompartment Id="714083f5-a73c-4f9b-9864-7d34a26faafe" absoluteBounds="4.64, 0.96, 1.9700000000000002, 1.2108968098958333" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="d3f0d522-9282-4e7f-ae96-b6f734ffd2ad" absoluteBounds="4.75, 3, 2, 1.7708968098958331">
+      <DataClassMoniker Name="/umcDataContext/aspnet_Role" />
+      <nestedChildShapes>
+        <elementListCompartment Id="dc31d170-dd9d-4e79-8ada-0c40c4bac5a3" absoluteBounds="4.765, 3.46, 1.9700000000000002, 1.2108968098958333" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="024d929b-d5dd-456c-ae87-983852a8136a" absoluteBounds="0.875, 0.5, 2, 2.3478011067708335">
+      <DataClassMoniker Name="/umcDataContext/aspnet_User" />
+      <nestedChildShapes>
+        <elementListCompartment Id="b2ba15c7-5c9c-49b8-aede-20905c4635fd" absoluteBounds="0.89, 0.96, 1.9700000000000002, 1.7878011067708335" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(2.25 : 2.84780110677083); (2.25 : 3.5)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/umcDataContext/aspnet_User/aspnet_User_aspnet_Membership" />
+      <nodes>
+        <classShapeMoniker Id="024d929b-d5dd-456c-ae87-983852a8136a" />
+        <classShapeMoniker Id="7d7c2d8e-87a8-4d05-a62b-8ebef38d641f" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(2.875 : 1.38544840494792); (4.625 : 1.38544840494792)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/umcDataContext/aspnet_User/aspnet_User_aspnet_Profile" />
+      <nodes>
+        <classShapeMoniker Id="024d929b-d5dd-456c-ae87-983852a8136a" />
+        <classShapeMoniker Id="8cf2b05c-59c9-46ac-95cc-e40f0e90e8c9" />
+      </nodes>
+    </associationConnector>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>
